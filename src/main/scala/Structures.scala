@@ -37,6 +37,7 @@ object Structures extends App {
   }
   println(result)
 
+  //try catch finally
   var text =""
   try {
     //writeTextToFile(text)
@@ -47,5 +48,11 @@ object Structures extends App {
     println("Clean up you resources here")
   }
 
+  //boucle while
+  var w = 0
+  while (w <= 3) {
+    println(w)
+    w += 1
+  }
 
 }
