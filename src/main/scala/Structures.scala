@@ -37,4 +37,15 @@ object Structures extends App {
   }
   println(result)
 
+  var text =""
+  try {
+    //writeTextToFile(text)
+  } catch {
+    //case ioe: IOException => println("Got an IOException.")
+    case nfe: NumberFormatException => println("Got a NumberFormatException.")
+  } finally {
+    println("Clean up you resources here")
+  }
+
+
 }
